@@ -73,19 +73,5 @@ $(function() {
       it("expects new content", function() {
         expect($preHeader).not.toEqual($postHeader);
       });
-
-      // beforeAll(function(done) {
-      //   loadFeed(0, done);
-      //   $preHeader = $('.header-title').html();
-      // });
-
-      // afterAll(function(done) {
-      //   loadFeed(0, done);
-      //   $postHeader = $('.header-title').html();
-      // });
-
-      // it("expects new content", function() {
-      //   expect($preHeader).not.toEqual($postHeader);
-      // });
     });         
 }());
